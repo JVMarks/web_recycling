@@ -1,0 +1,19 @@
+Este projeto esta sendo inicialmente desenvolvido por mim graças a 1º semana NextLevel,
+feita pela https://github.com/Rocketseat e https://github.com/maykbrito.
+
+GIT CODE
+
+git init
+git add .
+git status 
+git diff
+git add --all
+git commit -m ""
+git pull or git pull origin master
+git remote add origin 
+git push -u origin master
+
+else:
+rm -rf .git
+git remote -v
+git pull origin master --allow-unrelated-histories
