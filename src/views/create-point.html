@@ -8,12 +8,13 @@
 
 {% block styles %}
 <link rel="stylesheet" href="/styles/create-point.css">
+<link rel="stylesheet" href="/styles/modal.css">
 {%endblock styles%}
 
 {% block content %}
 {% include "partials/page-header.html"%}
 
-<form action="">
+<form action="/savepoint" method="POST">
   <h1>Cadastro do ponto de coleta</h1>
   <fieldset>
     <legend>
@@ -67,27 +68,27 @@
       <span>Selecione um ou mais Itens abaixo</span>
     </legend>
     <div class="items-grid">
-      <li data-id="item-1">
+      <li data-id="Lâmpadas">
         <img src="/assets/extras-aula-1/icones/lampadas.svg" alt="Lampadas">
         <span>Lâmpadas</span>
       </li>
-      <li data-id="item-2">
+      <li data-id="Pilhas e Baterias">
         <img src="/assets/extras-aula-1/icones/baterias.svg" alt="Pilhas e Baterias">
         <span>Pilhas e Baterias</span>
       </li>
-      <li data-id="item-3">
+      <li data-id="papéis e papelão">
         <img src="/assets/extras-aula-1/icones/papeis-papelao.svg" alt="papéis e papelão">
         <span>papéis e papelão</span>
       </li>
-      <li data-id="item-4">
+      <li data-id="Resíduos Eletronicos">
         <img src="/assets/extras-aula-1/icones/eletronicos.svg" alt="Resíduos Eletronicos">
-        <span>Resíduos Eletronicos </span>
+        <span>Resíduos Eletronicos</span>
       </li>
-      <li data-id="item-5">
+      <li data-id="Resíduos Organicos">
         <img src="/assets/extras-aula-1/icones/organicos.svg" alt="Resíduos Organicos">
         <span>Resíduos Organicos</span>
       </li>
-      <li data-id="item-6">
+      <li data-id="Óleo de Cozinha">
         <img src="/assets/extras-aula-1/icones/oleo.svg" alt="Óleo de Cozinha">
         <span>Óleo de Cozinha</span>
       </li>
@@ -97,7 +98,14 @@
 
   <button type="submit">Cadastrar ponto de coleta</button>
 </form>
+
 {%endblock content %}
+
+{% block modal %}
+{% if saved %}
+{% include "partials/point-created.html" %}
+{% endif %}
+{% endblock modal %}
 
 {% block scripts %}
 <script src="/js/create-point.js"></script>

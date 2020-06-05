@@ -62,6 +62,7 @@ function handleSelectedItem(event) {
   itemli.classList.toggle("selected")
   const itemId = itemli.dataset.id
 
+  console.log('ITEM ID', itemId)
 
   //verificar se existem itens selecionados
   //pegar os itens selecionados
