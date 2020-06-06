@@ -17,3 +17,14 @@ else:
 rm -rf .git
 git remote -v
 git pull origin master --allow-unrelated-histories
+
+As dependências precisam ser classificadas de maneira correta, 
+seja elas como dependência ou como dependência de desenvolvedor.
+ No caso da dependência de desenvolvedor,
+o host onde você irá hospedar a sua aplicação, não irá instalar elas, 
+pois entende que elas foram usadas apenas no processo de desenvolvimento.
+Geralmente são pacotes que auxiliam a produtividade, facilitam a sua vida.
+Já as outras dependências das quais o projeto realmente precisa para funcionar,
+aí sim, eles irão instalar.
+Não é necessário upar a pasta node_modules para o git hub pois o usuário que quiser instalar as dependencias,
+irá fazer através do package.json e rodando o comando necessário!

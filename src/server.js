@@ -26,7 +26,7 @@ server.get("/create-point", (req, res) => {
 
   //req.query serve para editar nossa url 
   //console.log(req.query)
-  //req.query
+  req.query
 
   return res.render("create-point.html")
 })
@@ -51,7 +51,7 @@ server.post("/savepoint", (req, res) => {
     req.body.address2,
     req.body.state,
     req.body.city,
-    req.body.item
+    req.body.items
   ]
 
   function afterInsertData(err) {
