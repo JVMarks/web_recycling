@@ -1,6 +1,6 @@
 <div class="Box-body">
    <article class="markdown-body entry-content p-5" itemprop="text"><h1 align="center"><a id="user-content-----" class="anchor" aria-hidden="true" href="#----"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/JVMarks/web_recycling/blob/master/github/logo.svg"><img alt="TinDEV" title="#delicinha" src="https://github.com/JVMarks/TinDEV/blob/master/github/logo.svg" width="500px" style="max-width:100%;"></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/JVMarks/web_recycling/blob/master/github/logo.svg"><img alt="TinDEV" title="#delicinha" src="https://github.com/JVMarks/web_recycling/blob/master/github/logo.svg" width="500px" style="max-width:100%;"></a>
  </h1>
  <div class="Box-body">    
     
@@ -28,14 +28,12 @@
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:</p>
 <ul>
 <li><a href="https://nodejs.org/en/" rel="nofollow">Node.js</a></li>
-<li><a href="https://reactjs.org" rel="nofollow">React</a></li>
-<li><a href="https://facebook.github.io/react-native/" rel="nofollow">React Native</a></li>
 </ul>
 <h2><a id="user-content--projeto" class="anchor" aria-hidden="true" href="#-projeto"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji> Projeto</h2>
-<p>O Tindev é um projeto que visa conectar desenvolvedores que querem conhecer outros com um sistema de maths.</p>
+<p>O Ecoleta é um projeto que visa conectar em uma unica plataforma pontos de reciclagem de todo pais. Possui tela de login, criação de um ponto de coleta, pesquisa por nome da cidade ou estado e muito mais...</p>
 <h2><a id="user-content--layout" class="anchor" aria-hidden="true" href="#-layout"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji> Layout</h2>
-<p>Você pode baixar o layout do projeto no formato <code>.sketch</code> através <a href="https://github.com/JVMarks/TinDEV.git" rel="nofollow">desse link</a>.</p>
-<p>Para abrir o arquivo no formato <code>.sketch</code> em qualquer sistema operacional utilize a ferramenta <a href="https://github.com/JVMarks/TinDEV.git" rel="nofollow">Zeplin</a>.</p>
+<p>Você pode baixar o layout do projeto no formato <code>.sketch</code> através <a href="https://github.com/JVMarks/web_recycling.git" rel="nofollow">desse link</a>.</p>
+<p>Para abrir o arquivo no formato <code>.sketch</code> em qualquer sistema operacional utilize a ferramenta <a href="https://github.com/JVMarks/web_recycling.git" rel="nofollow">Zeplin</a>.</p>
 <h2><a id="user-content--como-contribuir" class="anchor" aria-hidden="true" href="#-como-contribuir"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> Como contribuir</h2>
 <ul>
 <li>Faça um fork desse repositório;</li>
