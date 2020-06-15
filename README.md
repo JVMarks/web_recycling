@@ -43,7 +43,7 @@
 </ul>
 <p>Depois que o merge da sua pull request for feito, você pode deletar a sua branch.</p>
 <hr>
-<p>Feito com ♥ by Rocketseat <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> <a href="https://discordapp.com/invite/gCRAFhc" rel="nofollow">Entre na nossa comunidade!</a></p>
+<p>Feito junto com ♥ Rocketseat <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> <a href="https://discordapp.com/invite/gCRAFhc" rel="nofollow">Entre na nossa comunidade!</a></p>
 </article>
       </div>
  <!--
