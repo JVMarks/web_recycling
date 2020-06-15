@@ -95,4 +95,4 @@ server.get("/search", (req, res) => {
 //npm init -y 
 //npm install express 
 //npm install sqlite3
-server.listen(3218)
+server.listen(process.env.PORT ||3218)
