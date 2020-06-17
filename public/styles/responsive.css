@@ -9,45 +9,235 @@
   }
   #page-home header a{
     position: absolute;
-    bottom: 48px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
+
   }
  
   #page-home main{
-  align-items: center;
- }
+   align-items: center;
+  }
 
  #page-search-results .cards{
    grid-template-columns: 1fr;
- }
+  }
 
  #page-search-results .cards img{
-  height: 250px;
+   height: 250px;
+  }
+
+ #page-create-point .field-group{
+   flex-direction: column;
+  }
+
+ #page-create-point {
+   flex-direction: column;
+  }
+
+ #page-create-point .field-group .field + .field {
+   margin-left: 0;
+  }
+
 }
 
-#page-create-point .field-group{
-  flex-direction: column;
+@media (max-width: 450px){
+  #page-home header a{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
-#page-create-point {
-  flex-direction: column;
+@media (max-width: 500px){
+  #page-create-point {
+    background-position-x: 70vw;
+  }
+
+  #page-create-point header{
+    position: absolute;
+    bottom: -1150px;
+    left: 20%;
+    transform: translateX(-5%);
+  }
+
+  #page-create-point form h1 {
+   align-items: center;
+   text-align: center;
+  }
+
+  #page-create-point form legend span {
+    position: absolute;
+    bottom: -390px;
+    
+    transform: translateX(0%);
+  }
+
+  .items-grid{
+    transform: translateX(-14%);
+    padding: 16px 24px;
+  }
+ 
+  #page-create-point form button{
+    transform: translateX(13%);
+  }
+ 
 }
 
-#page-create-point .field-group .field + .field {
-  margin-left: 0;
+@media (max-width: 450px){
+  #page-create-point {
+    background-position-x: 70vw;
+  }
+
+  #page-create-point header{
+    position: absolute;
+    bottom: -1400px;
+    left: 13%;
+    transform: translateX(-5%);
+  }
+
+  .field-group{
+    transform: translateX(-5%);
+  }
+
+  #page-create-point form legend span {
+    position: absolute;
+    bottom: -370px;
+    transform: translateX(0%);
+  }
+
+  .items-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  transform: translateX(-13%);
+  }
+ 
+  #page-create-point form button{
+    transform: translateX(-5%);
+  }
+ 
 }
 
- }
+@media (max-width: 400px){
 
- @media (min-width: 1700px){
+  #page-create-point header{
+    position: absolute;
+    bottom: -1300px;
+    left: 13%;
+    transform: translateX(-5%);
+  }
+
+  .field-group{
+    transform: translateX(-9%);
+  }
+
+  #page-create-point form legend span {
+    position: absolute;
+    bottom: -300px;
+    transform: translateX(0%);
+  }
+
+  .items-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  transform: translateX(-17%);
+  }
+ 
+}
+
+@media (max-width: 375px){
+ 
+  #page-create-point {
+    background-position-x: 70vw;
+  }
+
+  #page-create-point header{
+    position: absolute;
+    bottom: -1490px;
+    left: 13%;
+    transform: translateX(-5%);
+  }
+
+  #page-create-point form {
+    transform: translateX(4%);
+  }
+
+  .field-group{
+    transform: translateX(-10%);
+  }
+
+  #page-create-point form legend span {
+    position: absolute;
+    bottom: 930px;
+    transform: translateX(0%);
+  }
+
+  .items-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  transform: translateX(-19%);
+  }
+ 
+  #page-create-point form button{
+    transform: translateX(-11%);
+  }
+ 
+ 
+ 
+}
+
+@media (max-width: 360px){
+ 
+  #page-create-point {
+    background-position-x: 70vw;
+  }
+
+  #page-create-point header{
+    position: absolute;
+    bottom: -1490px;
+    left: 13%;
+    transform: translateX(-5%);
+  }
+
+  #page-create-point form {
+    transform: translateX(5%);
+  }
+
+  .field-group{
+    transform: translateX(-10%);
+  }
+
+  #page-create-point form legend span {
+    position: absolute;
+    bottom: 930px;
+    transform: translateX(0%);
+  }
+
+  .items-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  transform: translateX(-19%);
+  }
+ 
+  #page-create-point form button{
+    transform: translateX(-11%);
+  }
+
+}
+
+@media (min-width: 1700px){
   #page-home{
     background-position-x: 40vw;
   }
- }
+}
 
- @media (max-height: 760px){
+@media (max-height: 760px){
   #page-home{
     background-position-Y: 200px;
   }
- }
+}
