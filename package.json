@@ -20,7 +20,7 @@
   "homepage": "https://github.com/JVMarks/web_recycling.github.io#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "nunjucks": "^3.2.1",
+    "nunjucks": "^3.2.4",
     "sqlite3": "^4.2.0"
   },
   "devDependencies": {
