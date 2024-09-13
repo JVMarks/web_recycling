@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/JVMarks/web_recycling.github.io#readme",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "nunjucks": "^3.2.4",
     "sqlite3": "^4.2.0"
   },
